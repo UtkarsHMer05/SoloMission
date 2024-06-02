@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1A083D2B6CEDCC009FDB08 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A083C2B6CEDCC009FDB08 /* GameOverScene.swift */; };
+		AA1A083F2B6D02AE009FDB08 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A083E2B6D02AE009FDB08 /* MainMenu.swift */; };
+		AA1A08432B6D0CF9009FDB08 /* battle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA1A08422B6D0CF9009FDB08 /* battle.mp3 */; };
+		AA2138ED2B6BE1970020469A /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA2138EC2B6BE1970020469A /* theBoldFont.ttf */; };
+		AAD241CB2B6BDA3B001786AF /* ExplosionSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAD241CA2B6BDA3B001786AF /* ExplosionSound.mp3 */; };
 		AAE24DE22B6AD426009E77CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE24DE12B6AD426009E77CB /* AppDelegate.swift */; };
 		AAE24DE42B6AD426009E77CB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE24DE32B6AD426009E77CB /* GameViewController.swift */; };
 		AAE24DE72B6AD426009E77CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE24DE52B6AD426009E77CB /* Main.storyboard */; };
@@ -15,9 +20,16 @@
 		AAE24DEC2B6AD426009E77CB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AAE24DD72B6AD425009E77CB /* GameScene.sks */; };
 		AAE24DED2B6AD426009E77CB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE24DD82B6AD425009E77CB /* GameScene.swift */; };
 		AAE24DEE2B6AD426009E77CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE24DD92B6AD426009E77CB /* Assets.xcassets */; };
+		AAE7D57D2B6B5F75002B66FF /* soundEffect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAE7D57C2B6B5F75002B66FF /* soundEffect.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA1A083C2B6CEDCC009FDB08 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		AA1A083E2B6D02AE009FDB08 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		AA1A08422B6D0CF9009FDB08 /* battle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = battle.mp3; sourceTree = "<group>"; };
+		AA2138EC2B6BE1970020469A /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		AA2138EE2B6BE26C0020469A /* SoloMission-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SoloMission-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AAD241CA2B6BDA3B001786AF /* ExplosionSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ExplosionSound.mp3; sourceTree = "<group>"; };
 		AAE24DD62B6AD425009E77CB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		AAE24DD72B6AD425009E77CB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		AAE24DD82B6AD425009E77CB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -27,6 +39,7 @@
 		AAE24DE32B6AD426009E77CB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AAE24DE62B6AD426009E77CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAE24DE92B6AD426009E77CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAE7D57C2B6B5F75002B66FF /* soundEffect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundEffect.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +68,13 @@
 				AAE24DD62B6AD425009E77CB /* Actions.sks */,
 				AAE24DD72B6AD425009E77CB /* GameScene.sks */,
 				AAE24DD82B6AD425009E77CB /* GameScene.swift */,
+				AA1A083C2B6CEDCC009FDB08 /* GameOverScene.swift */,
+				AAE7D57C2B6B5F75002B66FF /* soundEffect.mp3 */,
+				AAD241CA2B6BDA3B001786AF /* ExplosionSound.mp3 */,
+				AA1A08422B6D0CF9009FDB08 /* battle.mp3 */,
+				AA2138EC2B6BE1970020469A /* theBoldFont.ttf */,
 				AAE24DD92B6AD426009E77CB /* Assets.xcassets */,
+				AA1A083E2B6D02AE009FDB08 /* MainMenu.swift */,
 			);
 			path = "SoloMission Shared";
 			sourceTree = "<group>";
@@ -71,6 +90,7 @@
 		AAE24DE02B6AD426009E77CB /* SoloMission iOS */ = {
 			isa = PBXGroup;
 			children = (
+				AA2138EE2B6BE26C0020469A /* SoloMission-iOS-Info.plist */,
 				AAE24DE12B6AD426009E77CB /* AppDelegate.swift */,
 				AAE24DE32B6AD426009E77CB /* GameViewController.swift */,
 				AAE24DE52B6AD426009E77CB /* Main.storyboard */,
@@ -138,9 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE24DEC2B6AD426009E77CB /* GameScene.sks in Resources */,
+				AAE7D57D2B6B5F75002B66FF /* soundEffect.mp3 in Resources */,
 				AAE24DE72B6AD426009E77CB /* Main.storyboard in Resources */,
 				AAE24DEB2B6AD426009E77CB /* Actions.sks in Resources */,
+				AA2138ED2B6BE1970020469A /* theBoldFont.ttf in Resources */,
+				AAD241CB2B6BDA3B001786AF /* ExplosionSound.mp3 in Resources */,
 				AAE24DEA2B6AD426009E77CB /* LaunchScreen.storyboard in Resources */,
+				AA1A08432B6D0CF9009FDB08 /* battle.mp3 in Resources */,
 				AAE24DEE2B6AD426009E77CB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1A083F2B6D02AE009FDB08 /* MainMenu.swift in Sources */,
 				AAE24DED2B6AD426009E77CB /* GameScene.swift in Sources */,
 				AAE24DE42B6AD426009E77CB /* GameViewController.swift in Sources */,
+				AA1A083D2B6CEDCC009FDB08 /* GameOverScene.swift in Sources */,
 				AAE24DE22B6AD426009E77CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,12 +329,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5Q286T98A4;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SoloMission-iOS-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -333,12 +361,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5Q286T98A4;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SoloMission-iOS-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
